@@ -60,9 +60,33 @@ Setup 1A
 	- 114e3 @ 1/2", 300ms
 	- 191e3 @ 0", 500"
 
-This one is curious.  The detection range is farther, upwards of 4", but rather than going up, the values go down as the hand gets closer.  Note that the paper cover is necessary.  Without the paper cover, the value and distance ranges are different. (See Setup 1B).
+This one is curious.  The detection range is farther, upwards of 4", but rather than going up, the values go down as the hand gets closer.  Note that the paper cover is necessary.  Without the paper cover, the value and distance ranges are different. (See *Setup 1B*).
 
 Note: The range works omnidirectionally around sensor, even through the table.
+
+### Setup 1A-1
+
+- Materials:
+	- Sensor: Foil (~3.5" x ~1")
+- Observed Readings:
+	- 100e3 @ ~10~12", 270ms (!)
+	- 110e3 @ ~3", 290ms
+		- @ 4.5"?
+	- 191e3 @ 1", 500ms
+
+Oddly, this one only increases.  It does not decrease in value, like in *1A*.  Hm.
+
+### Setup 1A-2
+
+- Materials:
+	- 3/4" MDF Cover
+	- Sensor: Foil (~3.25" x ~1")
+- Observed Readings:
+	- 101e3 @ ~5", 265ms
+	- 110e3 @ ~ 2", 290ms
+	- 191e3 @ Contact with Cover, 500ms
+
+Like *1A-1*, this one also only increases.  However, all of the *1A* trials have a total difference of nearly 90e3 between the farthest detection threshold and the nearest.
 
 
 
